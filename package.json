@@ -1,0 +1,28 @@
+{
+  "name": "harrybot2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Tool for making ReactBot-likes",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app:dist": "electron-builder"
+  },
+  "author": "Harrison Gowland",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^37.2.4",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "build": {
+    "appId": "co.uk.harrisongowland.harrybot2",
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  }
+}
