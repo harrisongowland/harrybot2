@@ -8,3 +8,8 @@ To use repository version:
 4. Add a base video (i.e. the video that will loop if the bot is not speaking) to the videos folder, and the videos of the bot speaking to the videos/clips folder
 5. Run "npm run start" again
 6. Press F7 to see the bot speak one of the lines you have ingested
+
+To use release version:
+1. Download and install release
+2. Add a base video (i.e. the video that will loop if the bot is not speaking) to the videos folder, and the videos of the bot speaking to the videos/clips folder
+3. Press F7 to see the bot speak one of the lines you have ingested
